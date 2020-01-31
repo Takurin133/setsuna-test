@@ -1,0 +1,19 @@
+{
+  "name": "setsuna-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/se-n-pu-u-ki/setsuna-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/se-n-pu-u-ki/setsuna-test/issues"
+  },
+  "homepage": "https://github.com/se-n-pu-u-ki/setsuna-test#readme"
+}
