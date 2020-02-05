@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import InitialSetting from './Components/InitialSetting/index';
-import Mypage from './Components/Mypage/index';
+import NavBar from './Components/Header/index'
 
 function App() {
   return (
     <div className="App">
-      <InitialSetting />
-      <Mypage />
+      <NavBar />
     </div>
   );
 }
