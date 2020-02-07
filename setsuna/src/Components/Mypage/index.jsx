@@ -3,7 +3,7 @@ import './index.css';
 
 class Mypage extends React.Component {
     render(){
-        var name = '鈴木萌斗';
+        const name = "鈴木萌斗"
         return(
             <div className='Mypage'>
                 <img src="../../Images/Moeto.jpg" alt="face photo" height='100%' width='100%'/>
