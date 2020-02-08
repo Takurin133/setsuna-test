@@ -1,0 +1,9 @@
+.user1,.user2, .user3, .user4{
+    padding: 10px;
+    font-family: serif;
+    border: 5px solid greenyellow;
+    text-align: center;
+}
+.Timer{
+    text-align: center;
+}
