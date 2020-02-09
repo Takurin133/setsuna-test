@@ -1,0 +1,19 @@
+nav{
+    width:100%;
+    overflow: hidden;
+       }
+   nav div{
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+}
+   nav ul{
+     display: inline-table;
+     max-width: 100%;
+}
+    nav ul li{
+    display: table-cell;
+}
+   ::-webkit-scrollbar{
+    display: none;
+  }
