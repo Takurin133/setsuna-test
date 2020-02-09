@@ -39,6 +39,7 @@ export default function NavBar() {
                 <NavLink to="Feedback">フィードバック</NavLink>,
                 <NavLink to="Match">マッチ</NavLink>,
                 <NavLink to="Mypage">マイページ</NavLink>,
+                <NavLink to="Result">結果</NavLink>,
             </Router>
         <IconButton>
         </IconButton>

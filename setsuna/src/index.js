@@ -9,6 +9,7 @@ import Column from './Components/Column/index';
 import Feedback from './Components/Feedback/index';
 import Match from './Components/Match/index';
 import Mypage from './Components/Mypage/index';
+import Result from './Components/Result/index';
 
 ReactDOM.render((
     <div>
@@ -19,6 +20,7 @@ ReactDOM.render((
             <Route path="/Match" component={Match}></Route>
             <Route path="/Column" component={Column}></Route>
             <Route path="/Feedback" component={Feedback}></Route>
+            <Route path="/Result" component={Result}></Route>
         </Router>
     </div>
 ), document.getElementById('root'));
