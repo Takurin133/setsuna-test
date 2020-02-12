@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import FormControlLabelPosition from '../../MaterialUiParts/FormControlLabelPosition';
 
 class Mypage extends React.Component {
     render(){
@@ -9,11 +10,16 @@ class Mypage extends React.Component {
             <div className='Mypage'>
                 <img src="../../Images/Moeto.jpg" alt="face photo"/>
                 <h1>{name}</h1>
-                <div className="chalengeList">
+                <div className="challengeList">
                     <li>
                         {chalengeListArr.map(x=> {
-                            return <ul>{x}</ul>;
-                        })}
+                            return( 
+                                <div>
+                                    <ul>
+                                       <FormControlLabelPosition /> {x}
+                                    </ul>
+                                </div>
+                         ) })}
                     </li>
                 </div>
             </div>

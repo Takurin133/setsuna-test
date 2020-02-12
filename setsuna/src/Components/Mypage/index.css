@@ -2,3 +2,7 @@ img{
     width:200px;
     height:100px;
     }
+
+.challengeList{
+    display: inline-block;
+}    

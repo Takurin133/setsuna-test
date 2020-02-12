@@ -1,4 +1,5 @@
 import React from 'react';
+import DiscreteSlider from '../../Slideree';
 
 class Feedback extends React.Component{
     render(){
