@@ -5,6 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
+import './index'
 
 import Column from '../Column/index';
 import Feedback from '../Feedback/index';
@@ -75,12 +76,14 @@ export default function NavBar() {
         </IconButton>
         <Button variant="outlined" size="small" className={classes.signup}>Sign up</Button>
       </Toolbar>
+          <div className="mainpageArea">
             <Route exact path="/" component={Mypage}></Route>
             <Route path="/Mypage" component={Mypage}></Route>
             <Route path="/Match" component={Match}></Route>
             <Route path="/Column" component={Column}></Route>
             <Route path="/Feedback" component={Feedback}></Route>
             <Route path="/Result" component={Result}></Route>
+          </div>
       </Router>
 
     </React.Fragment>

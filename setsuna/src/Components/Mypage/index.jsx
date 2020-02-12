@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import { mergeClasses } from '@material-ui/styles';
 
 class Mypage extends React.Component {
     render(){
@@ -7,6 +8,7 @@ class Mypage extends React.Component {
         const name = "鈴木萌斗"
         return(
             <div className='Mypage'>
+                <p className="title">My page</p>
                 <img src="../../Images/Moeto.jpg" alt="face photo"/>
                 <h1>{name}</h1>
                 <div className="chalengeList">

@@ -4,17 +4,18 @@ import Waiting from "./Waiting";
 
 export default class Match extends React.Component{
     render(){
-        const isMatched = Boolean("true");
-        function match(){
-            if (isMatched){
-                return(<Matched />)
-            }
-            else {
-                return (<Waiting />)
-            }
-        }
+        // const isMatched = Boolean("true");
+        // function match(){
+        //     if (isMatched){
+        //         return(<Matched />)
+        //     }
+        //     else {
+        //         return (<Waiting />)
+        //     }
+        // }
         
-        return({match})
+        // return({match})
         
+        return(<Matched />)
     }
 }
