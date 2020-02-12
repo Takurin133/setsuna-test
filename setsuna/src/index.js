@@ -4,24 +4,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Column from './Components/Column/index';
-import Feedback from './Components/Feedback/index';
-import Match from './Components/Match/index';
-import Mypage from './Components/Mypage/index';
-import Result from './Components/Result/index';
-
 ReactDOM.render((
     <div>
         <App />
-        <Router>
-            <Route exact path="/" component={Mypage}></Route>
-            <Route path="/Mypage" component={Mypage}></Route>
-            <Route path="/Match" component={Match}></Route>
-            <Route path="/Column" component={Column}></Route>
-            <Route path="/Feedback" component={Feedback}></Route>
-            <Route path="/Result" component={Result}></Route>
-        </Router>
     </div>
 ), document.getElementById('root'));
 

@@ -16,5 +16,8 @@
   },
   "homepage": "https://github.com/se-n-pu-u-ki/setsuna-test#readme",
   "keywords": [],
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@material-ui/styles": "^4.9.0"
+  }
 }
